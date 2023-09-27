@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.9;
+  background-color: #e6eff6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+main {
+  background-color: #ffffff;
+  border-radius: 10px 10px 0 0;
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+main h1 {
+  margin-bottom: 30px;
+  color: #2ab2af;
+}
+
+main h2 {
+  margin-bottom: 20px;
+  color: #c0df34;
+}
+
+main p {
+  color: #98a6bd;
+  /* margin-bottom: 30px; */
+}
+
+section {
+  background-color: #2ab2af;
+  color: #e5eff5;
+  padding: 3.1rem;
+  border-radius: 0 0 0 10px;
+  /* overflow: hidden;s */
+}
+
+section h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+section p:first-of-type {
+  font-size: 25px;
+  color: #50bec0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+section strong {
+  font-size: 40px;
+  color: #e5eff5;
+}
+
+.price-a-day {
+  margin-bottom: 30px;
+}
+
+section .call-to-action:link {
+  display: block;
+  width: 100%;
+  padding: 18px;
+  background-color: #c0df34;
+  color: #e5eff5;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+aside {
+  background-color: rgba(42, 178, 175, 0.9);
+  padding: 3.1rem;
+  color: rgba(229, 239, 245, 0.5);
+  border-radius: 0 0 10px 0;
+}
+
+aside h3 {
+  font-size: 26px;
+  color: rgba(229, 239, 245, 0.9);
+  margin-bottom: 15px;
+}
+
+aside ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+ul li {
+}
